@@ -51,13 +51,14 @@ Kami mengerjakan fitur-fitur tersebut dengan pembagian jobdesk sebagai berikut:
 - `main` berisi class - class yang digunakan untuk men-generate tampilan gamenya. Class yang ada dalam package ini meliputi controller pada file - file FXML resources yang digunakan, class untuk memainkan lagu pada game, menampilkan notifikasi penambahan poin apabila suatu baris sudah penuh. Class guiController dan gameController merupakan controller dari game yang dibuat dan mengimplementasikan package logic dalam game ini dan logika mengenai tampilan game ini.
 
 ### Tools Yang Digunakan dalam pengerjaan _Ong Tetris_
-- JavaFX
-- IDE - VSCode
+- Java : `java 19.0.1`
+- JavaFX : `javafx-sdk-19`
+- IDE : `Visual Studio Code`
 - SceneBuilder
 - GitHub Desktop
 - Canva
 - Adobe Illustrator
-- DAW - Garage Band
+- DAW - `Garage Band`
 
 ### Perbandingan Tampilan _Ong Tetris_ dengan Tutorial Referensi
 
@@ -67,6 +68,8 @@ Kami mengerjakan fitur-fitur tersebut dengan pembagian jobdesk sebagai berikut:
 | <p align="center"> Main Menu </p>        | <img src="https://user-images.githubusercontent.com/88714570/208303335-7651836e-8033-4bcf-9b72-2afa29f52638.png" width = "250"/>    | <p align="center"> Tidak ada tampilan </p> |
 | <p align="center"> Info How To Play </p> | <img src="https://user-images.githubusercontent.com/88714570/208303458-25bf4534-b454-4548-a6c4-47671e31d555.png" width = "250"/>    | <p align="center"> Tidak ada tampilan </p> |
 | <p align="center"> Creator Info </p>     | <img src="https://user-images.githubusercontent.com/88714570/208303489-4f427f11-03aa-4f53-8838-4c20a4af24c4.png" width = "250"/>    | <p align="center"> Tidak ada tampilan </p> |
+| <p align="center"> Gameplay </p>         | <img src="https://user-images.githubusercontent.com/88714570/208303537-3a23f2c8-867c-4920-8abf-624ff14ca033.png" width = "250"/>    | <img src="https://user-images.githubusercontent.com/88714570/208303547-286e3db2-4ea3-419d-9fc7-0f4b3c1060f7.jpeg" width = "250"/> |
+| <p align="center"> Game Over </p>        | <img src="https://user-images.githubusercontent.com/88714570/208303588-456cf5b6-0b2c-403e-b3e4-ba3b1b5e434f.png" width = "250"/>    | <img src="https://user-images.githubusercontent.com/88714570/208303595-9c759101-46b3-44c5-9806-383400e3192b.jpeg" width = "250"/> |
 
-
-
+### Panduan Untuk Visual Studio Code
+> Apabila anda ingin menjalankan _Ong Tetris_ pada Visual Studio Code, buka folder `.vscode`, kemudian buka file `.vscode/launch.json` dan ubah path directory JavaFX sesuai dengan path directory JavaFX pada komputer anda `vmArgs: [your javafx lib path]`
