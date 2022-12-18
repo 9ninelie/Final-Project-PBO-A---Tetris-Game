@@ -35,3 +35,18 @@ Kami mengerjakan fitur-fitur tersebut dengan pembagian jobdesk sebagai berikut:
 - Vasy - 
 
 ### Class dalam _Ong Tetris_
+
+
+logic berisi class - class yang akan digunakan untuk mengimplementasikan logika gamenya seperti membuat layout bricknya, membuat bricknya bergerak kebawah, menampilkan informasi brick yang akan jatuh selanjutnya, membersihkan baris apabila baris sudah terpenuhi.
+
+logic/bricks berisi class - class yang digunakan untuk membuat bricks dalam game. Terdapat beberapa bricks yang akan ditampilkan dalam game ini yaitu bentuk; I, J, L, O, S, T, dan Z. Dalam package ini juga terdapat class yang akan digunakan untuk men-generate brick tersebut secara random.
+
+logic/event berisi class class yang akan digunakan untuk menggerakan brick brick tersebut.
+
+resources berisi asset - asset yang digunakan dalam game ini seperti asset tampilan loading, menu, credit, informasi how to play game, dan game. Asset ini didesign lebih baik lagi dengan menggunakan aplikasi SceneBuilder.
+
+resources/image berisi gambar gambar yang digunakan sebagai asset dalam game ini.
+
+resources/music berisi lagu yang digunakan dalam game ini.
+
+main berisi class - class yang digunakan untuk men-generate tampilan gamenya. Class yang ada dalam package ini meliputi controller pada file - file FXML resources yang digunakan, class untuk memainkan lagu pada game, menampilkan notifikasi penambahan poin apabila suatu baris sudah penuh. Class guiController dan gameController merupakan controller dari game yang dibuat dan mengimplementasikan package logic dalam game ini dan logika mengenai tampilan game ini.
