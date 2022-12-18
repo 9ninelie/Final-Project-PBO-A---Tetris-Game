@@ -8,7 +8,6 @@
 | Laurivasya Gadhing Syahafidh | 5025211136 |
 
 
-
 ### Apa itu _Ong Tetris_?
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Typical_Tetris_Game.svg/220px-Typical_Tetris_Game.svg.png" width ="100"/>
 <p align="justify"> Ong Tetris merupakan bentuk permainan Tetris yang di populerkan oleh Alexey Pajitnov pada tahun 1984. Pada permainan, berbagai macam tetromino yang terdiri dari empat balok akan jatuh. Tujuan dari permainan ini adalah dengan memanipulasi tetromino yang jatuh, dengan mengerakannya ke samping atau memutarnya, sehingga akan terbentuk garis horizontal tanpa celah, ketika sudah terbentuk, tetromino tersebut akan menghilang, sehingga tetromino diatasnya akan terjatuh. Ketika permainan berlanjut, tetromino tersebut akan jatuh lebih cepat. Permainan akan berakhir apabila tetromino berikutnya terhalang sehingga tidak bisa masuk. </p>
@@ -33,6 +32,12 @@ Kami mengerjakan fitur-fitur tersebut dengan pembagian jobdesk sebagai berikut:
 - Arif - 
 - Rayhan - 
 - Vasy - 
+
+### Panduan Untuk Visual Studio Code
+> Apabila anda ingin menjalankan _Ong Tetris_ pada Visual Studio Code, buka folder `.vscode`, kemudian buka file `.vscode/launch.json` dan ubah path directory JavaFX sesuai dengan path directory JavaFX pada komputer anda `vmArgs": "--module-path [path JavaFX anda] --add-modules javafx.controls, javafx.fxml`
+
+> Contoh : `"vmArgs": "--module-path \"D:/work/programming/javafx-sdk-19/lib\" --add-modules javafx.controls,javafx.fxml"` serta jangan lupa untuk import `.jar` filesnya ke Visual Studio Code anda. Untuk panduannya dapat dilihat [disini](https://youtu.be/H67COH9F718?t=542)
+
 
 ### Class dalam _Ong Tetris_
 
@@ -71,5 +76,5 @@ Kami mengerjakan fitur-fitur tersebut dengan pembagian jobdesk sebagai berikut:
 | <p align="center"> Gameplay </p>         | <img src="https://user-images.githubusercontent.com/88714570/208303537-3a23f2c8-867c-4920-8abf-624ff14ca033.png" width = "250"/>    | <img src="https://user-images.githubusercontent.com/88714570/208303547-286e3db2-4ea3-419d-9fc7-0f4b3c1060f7.jpeg" width = "250"/> |
 | <p align="center"> Game Over </p>        | <img src="https://user-images.githubusercontent.com/88714570/208303588-456cf5b6-0b2c-403e-b3e4-ba3b1b5e434f.png" width = "250"/>    | <img src="https://user-images.githubusercontent.com/88714570/208303595-9c759101-46b3-44c5-9806-383400e3192b.jpeg" width = "250"/> |
 
-### Panduan Untuk Visual Studio Code
-> Apabila anda ingin menjalankan _Ong Tetris_ pada Visual Studio Code, buka folder `.vscode`, kemudian buka file `.vscode/launch.json` dan ubah path directory JavaFX sesuai dengan path directory JavaFX pada komputer anda `vmArgs: [your javafx lib path]`
+
+### _Thanks!_
