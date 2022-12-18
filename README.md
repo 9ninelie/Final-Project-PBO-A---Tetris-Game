@@ -36,27 +36,35 @@ Kami mengerjakan fitur-fitur tersebut dengan pembagian jobdesk sebagai berikut:
 
 ### Class dalam _Ong Tetris_
 
+- `logic` berisi class - class yang akan digunakan untuk mengimplementasikan logika gamenya seperti membuat layout bricknya, membuat bricknya bergerak kebawah, menampilkan informasi brick yang akan jatuh selanjutnya, membersihkan baris apabila baris sudah terpenuhi.
 
-logic berisi class - class yang akan digunakan untuk mengimplementasikan logika gamenya seperti membuat layout bricknya, membuat bricknya bergerak kebawah, menampilkan informasi brick yang akan jatuh selanjutnya, membersihkan baris apabila baris sudah terpenuhi.
+- `logic/bricks` berisi class - class yang digunakan untuk membuat bricks dalam game. Terdapat beberapa bricks yang akan ditampilkan dalam game ini yaitu bentuk; I, J, L, O, S, T, dan Z. Dalam package ini juga terdapat class yang akan digunakan untuk men-generate brick tersebut secara random.
 
-logic/bricks berisi class - class yang digunakan untuk membuat bricks dalam game. Terdapat beberapa bricks yang akan ditampilkan dalam game ini yaitu bentuk; I, J, L, O, S, T, dan Z. Dalam package ini juga terdapat class yang akan digunakan untuk men-generate brick tersebut secara random.
+- `logic/event` berisi class class yang akan digunakan untuk menggerakan brick brick tersebut.
 
-logic/event berisi class class yang akan digunakan untuk menggerakan brick brick tersebut.
+- `resources` berisi asset - asset yang digunakan dalam game ini seperti asset tampilan loading, menu, credit, informasi how to play game, dan game. Asset ini didesign lebih baik lagi dengan menggunakan aplikasi SceneBuilder.
 
-resources berisi asset - asset yang digunakan dalam game ini seperti asset tampilan loading, menu, credit, informasi how to play game, dan game. Asset ini didesign lebih baik lagi dengan menggunakan aplikasi SceneBuilder.
+- `resources/image` berisi gambar gambar yang digunakan sebagai asset dalam game ini.
 
-resources/image berisi gambar gambar yang digunakan sebagai asset dalam game ini.
+- `resources/music` berisi lagu yang digunakan dalam game ini.
 
-resources/music berisi lagu yang digunakan dalam game ini.
+- `main` berisi class - class yang digunakan untuk men-generate tampilan gamenya. Class yang ada dalam package ini meliputi controller pada file - file FXML resources yang digunakan, class untuk memainkan lagu pada game, menampilkan notifikasi penambahan poin apabila suatu baris sudah penuh. Class guiController dan gameController merupakan controller dari game yang dibuat dan mengimplementasikan package logic dalam game ini dan logika mengenai tampilan game ini.
 
-main berisi class - class yang digunakan untuk men-generate tampilan gamenya. Class yang ada dalam package ini meliputi controller pada file - file FXML resources yang digunakan, class untuk memainkan lagu pada game, menampilkan notifikasi penambahan poin apabila suatu baris sudah penuh. Class guiController dan gameController merupakan controller dari game yang dibuat dan mengimplementasikan package logic dalam game ini dan logika mengenai tampilan game ini.
-
-
-Tools Yang Digunakan:
+### Tools Yang Digunakan dalam pengerjaan _Ong Tetris_
 - JavaFX
 - IDE - VSCode
 - SceneBuilder
 - GitHub Desktop
 - Canva
 - Adobe Illustrator
-- Music Composer
+- DAW - Garage Band
+
+### Perbandingan Tampilan _Ong Tetris_ dengan Tutorial Referensi
+
+| Ong Tetris                        | Tetris Clone       |
+| ---------------------------- | -----------|
+| ![ong3](https://user-images.githubusercontent.com/88714570/208303091-295f93fd-5387-4cd7-9dec-ce262ae075e4.png)    | ![tutorial1](https://user-images.githubusercontent.com/88714570/208303130-907e96ee-c9f5-4166-acbf-505677d0bf32.jpeg) |
+| Arif Nugraha Santosa         | 5025211048 |
+| Laurivasya Gadhing Syahafidh | 5025211136 |
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Typical_Tetris_Game.svg/220px-Typical_Tetris_Game.svg.png" width ="100"/>
