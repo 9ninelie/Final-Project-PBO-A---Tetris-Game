@@ -28,10 +28,6 @@ Dalam pengerjaan FP ini, kami mengikuti playlist tutorial dari [Playlist Tetris 
 | In Game Music           | <p align="center"> ✓ </p> |   |  
 | Better UI               | <p align="center"> ✓ </p> |   | 
 
-Kami mengerjakan fitur-fitur tersebut dengan pembagian jobdesk sebagai berikut:
-- Arif - 
-- Rayhan - 
-- Vasy - 
 
 ### Panduan Untuk Visual Studio Code
 > Apabila anda ingin menjalankan _Ong Tetris_ pada Visual Studio Code, buka folder `.vscode`, kemudian buka file `.vscode/launch.json` dan ubah path directory JavaFX sesuai dengan path directory JavaFX pada komputer anda `vmArgs": "--module-path [path JavaFX anda] --add-modules javafx.controls, javafx.fxml`
