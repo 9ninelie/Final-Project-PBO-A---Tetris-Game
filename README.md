@@ -61,10 +61,12 @@ Kami mengerjakan fitur-fitur tersebut dengan pembagian jobdesk sebagai berikut:
 
 ### Perbandingan Tampilan _Ong Tetris_ dengan Tutorial Referensi
 
-| Ong Tetris                        | Tetris Clone       |
-| ---------------------------- | -----------|
-| ![ong3](https://user-images.githubusercontent.com/88714570/208303091-295f93fd-5387-4cd7-9dec-ce262ae075e4.png)    | ![tutorial1](https://user-images.githubusercontent.com/88714570/208303130-907e96ee-c9f5-4166-acbf-505677d0bf32.jpeg) |
-| Arif Nugraha Santosa         | 5025211048 |
-| Laurivasya Gadhing Syahafidh | 5025211136 |
+| **Tampilan**           | **Ong Tetris**                       | **Tetris Clone**       |
+|--------------------| ---------------------------- | -----------|
+| <p align="center"> Loading Screen </p>   | <img src="https://user-images.githubusercontent.com/88714570/208303091-295f93fd-5387-4cd7-9dec-ce262ae075e4.png" width = "250"/>    | <p align="center"> Tidak ada tampilan </p> |
+| <p align="center"> Main Menu </p>        | <img src="https://user-images.githubusercontent.com/88714570/208303335-7651836e-8033-4bcf-9b72-2afa29f52638.png" width = "250"/>    | <p align="center"> Tidak ada tampilan </p> |
+| <p align="center"> Info How To Play </p> | <img src="https://user-images.githubusercontent.com/88714570/208303458-25bf4534-b454-4548-a6c4-47671e31d555.png" width = "250"/>    | <p align="center"> Tidak ada tampilan </p> |
+| <p align="center"> Creator Info </p>     | <img src="https://user-images.githubusercontent.com/88714570/208303489-4f427f11-03aa-4f53-8838-4c20a4af24c4.png" width = "250"/>    | <p align="center"> Tidak ada tampilan </p> |
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Typical_Tetris_Game.svg/220px-Typical_Tetris_Game.svg.png" width ="100"/>
+
+
