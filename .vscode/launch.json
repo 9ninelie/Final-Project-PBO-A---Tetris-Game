@@ -1,24 +1,31 @@
 {
 	"version": "0.2.0",
 	"configurations": [
-
+		{
+			"type": "java",
+			"name": "Launch Main",
+			"request": "launch",
+			"mainClass": "main.Main",
+			"projectName": "Final-Project-PBO-A---Tetris-Game_89265b38",
+			"vmArgs": "--module-path \"D:/work/programming/javafx-sdk-19/lib\" --add-modules javafx.controls,javafx.fxml"
+		},
 		{
 			"type": "java",
 			"name": "Launch App",
 			"request": "launch",
 			"mainClass": "src.App",
 			"projectName": "Final-Project-PBO-A---Tetris-Game_9c119e7",
-			"vmArgs": "--module-path \"d:/Java/javafx-sdk-19/lib\" --add-modules javafx.controls,javafx.fxml",
+			"vmArgs": "--module-path \"D:/work/programming/javafx-sdk-19/lib\" --add-modules javafx.controls,javafx.fxml"
 		},
 		{
-			"vmArgs": "--module-path \"d:/Java/javafx-sdk-19/lib\" --add-modules javafx.controls,javafx.fxml",
+			"vmArgs": "--module-path \"D:/work/programming/javafx-sdk-19/lib\" --add-modules javafx.controls,javafx.fxml",
 			"type": "java",
 			"name": "Launch Current File",
 			"request": "launch",
 			"mainClass": "${file}"
 		},
 		{
-			"vmArgs": "--module-path \"d:/Java/javafx-sdk-19/lib\" --add-modules javafx.controls,javafx.fxml",
+			"vmArgs": "--module-path \"D:/work/programming/javafx-sdk-19/lib\" --add-modules javafx.controls,javafx.fxml",
 			"type": "java",
 			"name": "Launch App",
 			"request": "launch",
@@ -26,3 +33,4 @@
 		}
 	]
 }
+// D:\work\programming\javafx-sdk-19\lib

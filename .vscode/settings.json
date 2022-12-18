@@ -12,6 +12,14 @@
 		"d:/Java/javafx-sdk-19/lib/javafx.media.jar",
 		"d:/Java/javafx-sdk-19/lib/javafx.swing.jar",
 		"d:/Java/javafx-sdk-19/lib/javafx.web.jar",
-		"d:/Java/javafx-sdk-19/lib/javafx-swt.ja"
+		"d:/Java/javafx-sdk-19/lib/javafx-swt.ja",
+		"d:\\work\\programming\\javafx-sdk-19\\lib\\javafx.base.jar",
+		"d:\\work\\programming\\javafx-sdk-19\\lib\\javafx.controls.jar",
+		"d:\\work\\programming\\javafx-sdk-19\\lib\\javafx.fxml.jar",
+		"d:\\work\\programming\\javafx-sdk-19\\lib\\javafx.graphics.jar",
+		"d:\\work\\programming\\javafx-sdk-19\\lib\\javafx.media.jar",
+		"d:\\work\\programming\\javafx-sdk-19\\lib\\javafx.swing.jar",
+		"d:\\work\\programming\\javafx-sdk-19\\lib\\javafx.web.jar",
+		"d:\\work\\programming\\javafx-sdk-19\\lib\\javafx-swt.jar"
 	]
 }
