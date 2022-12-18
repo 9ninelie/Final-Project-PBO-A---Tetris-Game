@@ -17,14 +17,15 @@ _**Source: Wikipedia (https://id.wikipedia.org/wiki/Tetris)**_
 
 ### Fitur-fitur dalam **_Ong Tetris_**
 Dalam pengerjaan FP ini, kami mengikuti playlist tutorial dari link [ini](https://www.youtube.com/playlist?list=PLwsfVdfP_PPTMBJi_Jli6McfHr422URqO)
-|Responden|X|Y|
-|:-------:| :------:| :------:|
-| 1| 78| 100|  
-| 2| 75| 95|  
-| 3| 67| 70|  
-| 4| 77| 90|  
-| 5| 70| 90|  
-| 6| 72| 90|  
-| 7| 78| 89|  
-| 8| 74| 90|  
-| 9| 77| 100| 
+| Features                | Ong Tetris | Tetris Clone |
+| ----------------------- | -- | -- |
+| Pembuatan Bricks        | <p align="center"> ✓ </p> | <p align="center"> ✓ </p> |  
+| Pergerakan Bricks       | <p align="center"> ✓ </p> | <p align="center"> ✓ </p> |  
+| Pembuatan Tampilan Game | <p align="center"> ✓ </p> | <p align="center"> ✓ </p> |  
+| Main Menu               | <p align="center"> ✓ </p> |   |  
+| Info How to Play        | <p align="center"> ✓ </p> |   |  
+| Loading Screen          | <p align="center"> ✓ </p> |   |  
+| Creator Info            | <p align="center"> ✓ </p> |   |  
+| In Game Music           | <p align="center"> ✓ </p> |   |  
+| Better UI               | <p align="center"> ✓ </p> |   | 
+
