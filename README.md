@@ -1,7 +1,8 @@
-## Introdução
+# Final Project PBO A - **_Ong Tetris_**
 
-Seja bem vindo!
-Se você curtiu a extensão, não esqueça de deixar uma avaliação!
-
-Siga o canal no YouTube:
-- Academia dos Devs
+**Anggota Kelompok**
+| Nama                         | NRP        |
+| ---------------------------- | -----------|
+| Rayhan Arvianta Bayuputra    | 5025211217 |
+| Arif Nugraha Santosa         | 5025211048 |
+| Laurivasya Gadhing Syahafidh | 5025211136 |
