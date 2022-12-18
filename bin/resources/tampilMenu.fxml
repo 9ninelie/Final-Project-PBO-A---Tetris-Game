@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.tampilMenuController">
+   <children>
+      <AnchorPane>
+         <children>
+            <ImageView pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="-1.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="-1.0" AnchorPane.topAnchor="0.0">
+               <image>
+                  <Image url="@image/menuawal.png" />
+               </image>
+            </ImageView>
+            <Button layoutX="122.0" layoutY="284.0" mnemonicParsing="false" onAction="#gameMulai" prefHeight="44.0" prefWidth="165.0" style="-fx-background-color: TRANSPARENT;">
+               <font>
+                  <Font size="26.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="56.0" fitWidth="136.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@image/playbutton.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button layoutX="282.0" layoutY="29.0" mnemonicParsing="false" onAction="#tampilInfo" prefHeight="95.0" prefWidth="107.0" style="-fx-background-color: TRANSPARENT;">
+               <graphic>
+                  <ImageView fitHeight="55.0" fitWidth="59.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@image/infobutton.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button layoutX="283.0" layoutY="394.0" mnemonicParsing="false" onAction="#Credit" prefHeight="74.0" prefWidth="45.0" style="-fx-background-color: TRANSPARENT;">
+               <font>
+                  <Font size="26.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="56.0" fitWidth="136.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@image/credit.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>
