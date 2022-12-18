@@ -1,6 +1,15 @@
 {
 	"version": "0.2.0",
 	"configurations": [
+
+		{
+			"type": "java",
+			"name": "Launch App",
+			"request": "launch",
+			"mainClass": "src.App",
+			"projectName": "Final-Project-PBO-A---Tetris-Game_9c119e7",
+			"vmArgs": "--module-path \"d:/Java/javafx-sdk-19/lib\" --add-modules javafx.controls,javafx.fxml",
+		},
 		{
 			"vmArgs": "--module-path \"d:/Java/javafx-sdk-19/lib\" --add-modules javafx.controls,javafx.fxml",
 			"type": "java",
