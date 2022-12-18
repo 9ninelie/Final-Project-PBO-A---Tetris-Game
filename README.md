@@ -1,6 +1,6 @@
 # Final Project PBO A - _Ong Tetris_
 
-### Anggota Kelompok 13
+### Anggota Kelompok 8
 | Nama                         | NRP        |
 | ---------------------------- | -----------|
 | Rayhan Arvianta Bayuputra    | 5025211217 |
