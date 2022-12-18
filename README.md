@@ -50,3 +50,13 @@ resources/image berisi gambar gambar yang digunakan sebagai asset dalam game ini
 resources/music berisi lagu yang digunakan dalam game ini.
 
 main berisi class - class yang digunakan untuk men-generate tampilan gamenya. Class yang ada dalam package ini meliputi controller pada file - file FXML resources yang digunakan, class untuk memainkan lagu pada game, menampilkan notifikasi penambahan poin apabila suatu baris sudah penuh. Class guiController dan gameController merupakan controller dari game yang dibuat dan mengimplementasikan package logic dalam game ini dan logika mengenai tampilan game ini.
+
+
+Tools Yang Digunakan:
+- JavaFX
+- IDE - VSCode
+- SceneBuilder
+- GitHub Desktop
+- Canva
+- Adobe Illustrator
+- Music Composer
